@@ -42,6 +42,19 @@ function tryCatchExemplo(string){
 tryCatchExemplo('');
 
 
+_____________ERROR_OBJECT______________
+
+
+new Error(message, filename, lineNumber)
+
+const MeuErro = new Error('Mensagem Inválida');
+MeuErro.name = 'InvalidMessage';
+throw MeuErro;
+
+
+
+
+
 
 
 
